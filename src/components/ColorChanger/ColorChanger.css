@@ -1,0 +1,52 @@
+.color-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 90%;
+}
+
+.color-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.color-input-wrapper {
+    position: relative;
+}
+
+.color-input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    bottom: 30%;
+    right: 30%;
+}
+
+.color-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: auto;
+
+    &:hover {
+        background-color: #005dc4;
+    }
+
+    &:active {
+        background-color: #0051ff;
+    }
+}
